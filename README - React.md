@@ -1,11 +1,11 @@
 # Requirements
 - Setup a React, Redux project
-  - You can use any boilerplate project, e.g. https://github.com/mCodex/react-redux-saga-boilerplate
+  - You can use any boilerplate project, e.g. create-react-app
   - You are allowed to access Internet for any legal resources
 
 - This project is for managing equipments. It should include the following screens:
   - The equipment list page
-    - User can see a list of equipment which includes ID, Model, Manufacture Date
+    - User can see a list of equipment which includes ID, Model, Brand, Weight, Manufacture Date
     - User can go to the detail page by clicking an element (button, link, etc.)
     - User can go to the creation page by clicking an element (button or link)
   - The equipment detail page
@@ -19,14 +19,16 @@
     - After item is created, the page should be same with the detail page (including URL)
   - The equipment deletion confirm dialog
     - User can confirm or cancel the deletion operation
-    - After item is deleted successfully, the page should be redirected to the list page
+    - After item is deleted successfully, the page should be redirected to the list page and the deleted item will disappear 
 
 
 # Additional requests
 - You must use git (local or github) to manage your code changes
+- It's better to use the latest version of React
+- It's better to write some basic UT code for one component
 - It's better to have consistent code style in your code
 - It's better to show proper feedback messages to user (e.g. item saved successfully, API failures, etc.)
-- It will be great if you structure your pages by `react-router-dom`, and use `redux-saga` to handle the async state changes.
+- It will be great if you structure your pages with some hooks, and use `react-redux` to handle the async state changes.
 
 # API Service
 - You don't need write your own back end service (you could modify the service if necessary).
