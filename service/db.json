@@ -1,11 +1,11 @@
 {
   "equipments": [
     {
-      "id": "asset:001",
       "model": "LAMBDA 650 UV/Vis Spectrophotometer",
       "brand": "LAMBDA",
       "weight": "76.0 kg",
-      "manufactureDate": "2010-05-12"
+      "manufactureDate": "2010-05-20",
+      "id": "asset:001"
     },
     {
       "id": "asset:002",
@@ -68,13 +68,6 @@
       "model": "Operetta CLS High-Content Analysis System",
       "brand": "Operetta CLS",
       "weight": "3 kg",
-      "manufactureDate": "2014-04-11"
-    },
-    {
-      "id": "asset:011",
-      "model": "AutoDELFIA® Instrument",
-      "brand": "AutoDELFIA",
-      "weight": "2 kg",
       "manufactureDate": "2014-04-11"
     }
   ]
